@@ -1,0 +1,24 @@
+/*hammerhead|script|start*/if (typeof window !== 'undefined' && window){window['hammerhead|process-dom-method'] && window['hammerhead|process-dom-method']();if (window.__get$ && typeof __get$ === 'undefined')var __get$Loc = window.__get$Loc,__set$Loc = window.__set$Loc,__set$ = window.__set$,__get$ = window.__get$,__call$ = window.__call$,__get$Eval = window.__get$Eval,__proc$Script = window.__proc$Script,__proc$Html = window.__proc$Html,__get$PostMessage = window.__get$PostMessage,__get$ProxyUrl = window.__get$ProxyUrl,__rest$Array = window.__rest$Array,__rest$Object = window.__rest$Object,__arrayFrom$ = window.__arrayFrom$;} else {if (typeof __get$ === 'undefined')var __get$Loc = function(l){return l},__set$Loc = function(l,v){return l = v},__set$ = function(o,p,v){return o[p] = v},__get$ = function(o,p){return o[p]},__call$ = function(o,p,a){return o[p].apply(o,a)},__get$Eval = function(e){return e},__proc$Script = function(s){return s},__proc$Html = function(h){return h},__get$PostMessage = function(w,p){return arguments.length===1?w.postMessage:p},__get$ProxyUrl = function(u,d){return u},__rest$Array = function(a,i){return Array.prototype.slice.call(a, i)},__rest$Object = function(o,p){var k=Object.keys(o),n={};for(var i=0;i<k.length;++i)if(p.indexOf(k[i])<0)n[k[i]]=o[k[i]];return n},__arrayFrom$ = function(r){if(!r)return r;return!Array.isArray(r)&&"function"==typeof r[Symbol.iterator]?Array.from(r):r};if (typeof importScripts !== "undefined" && /\[native code]/g.test(importScripts.toString()))importScripts((location.origin || (location.protocol + "//" + location.host)) + "/worker-hammerhead.js");}/*hammerhead|script|processing-header-end*/
+try{
+var s_ZKb=function(a){this.Rk=a};
+
+}catch(e){_DumpException(e)}
+try{
+var s_ym=function(a){s_I.call(this,a.Ka);var b=this;this.window=a.service.window.get();this.wa=this.Rk();this.oa=window.orientation;this.ka=function(){var c=b.Rk(),d=b.Hib()&&90===Math.abs(window.orientation)&&b.oa===-1*window.orientation;b.oa=window.orientation;if(c!==b.wa||d){b.wa=c;d=s_e(b.Ce);for(var e=d.next();!e.done;e=d.next()){e=e.value;var f=new s_ZKb(c);try{e(f)}catch(g){s_ca(g)}}}};this.Ce=new Set;this.window.addEventListener("resize",this.ka);this.Hib()&&this.window.addEventListener("orientationchange",
+this.ka)};s_v(s_ym,s_I);s_ym.nb=s_I.nb;s_ym.Fa=function(){return{service:{window:s_mj}}};s_ym.prototype.addListener=function(a){this.Ce.add(a)};s_ym.prototype.removeListener=function(a){this.Ce.delete(a)};
+s_ym.prototype.Rk=function(){if(s__Kb()){var a=s_Lh(this.window);a=new s_sh(a.width,Math.round(a.width*this.window.innerHeight/this.window.innerWidth))}else a=this.wc()||(s_na()?s__Kb():this.window.visualViewport)?s_Lh(this.window):new s_sh(this.window.innerWidth,this.window.innerHeight);return a.height<a.width};s_ym.prototype.destroy=function(){this.window.removeEventListener("resize",this.ka);this.window.removeEventListener("orientationchange",this.ka)};
+var s__Kb=function(){return s_na()&&s_nf.qG()&&!navigator.userAgent.includes("GSA")};s_ym.prototype.wc=function(){return s_0Kb};s_ym.prototype.Hib=function(){return"orientation"in window};var s_0Kb=!1;s_nj(s_1Ka,s_ym);
+
+s_0Kb=!0;
+
+}catch(e){_DumpException(e)}
+try{
+s_a("aLUfP");
+
+
+s_b();
+
+}catch(e){_DumpException(e)}
+// Google Inc.
+
+/*hammerhead|script|end*/
