@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/natant-network/vitro.git"
+    "url": "git+https://github.com/ruby-network/vitro.git"
   },
   "author": "Natant Network",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/natant-network/vitro/issues"
+    "url": "https://github.com/ruby-network/vitro/issues"
   },
-  "homepage": "https://github.com/natant-network/vitro#readme",
+  "homepage": "https://github.com/ruby-network/vitro#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "concurrently": "^7.6.0",
