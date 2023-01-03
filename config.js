@@ -6,8 +6,8 @@ module.exports = {
     //// HOSTING CONFIGURATION ////
 
     bindingAddress: '0.0.0.0',
-    port: 8080,
-    crossDomainPort: 8081,
+    port: 80,
+    crossDomainPort: 81,
     publicDir: path.join(__dirname, './'), // set to null to disable
 
     // if workers is null or 1, multithreading is disabled
@@ -23,7 +23,7 @@ module.exports = {
     //getServerInfo: () => ({ hostname: '0.0.0.0', port: 8080, crossDomainPort: 8081, protocol: 'http:' }),
     // example of non-hard-coding the hostname header
     getServerInfo: (req) => {
-      return { hostname: new URL('http://' + req.headers.host).hostname, port: 8080, crossDomainPort: 8081, protocol: 'http: '};
+      return { hostname: new URL('http://' + req.headers.host).hostname, port: 80, crossDomainPort: 81, protocol: 'http: '};
     },
 
     // enforce a password for creating new sessions. set to null to disable
