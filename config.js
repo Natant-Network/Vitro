@@ -33,7 +33,7 @@ module.exports = {
     disableLocalStorageSync: false,
 
     // restrict sessions to be only used per IP
-    restrictSessionToIP: true,
+    restrictSessionToIP: false,
 
     // use disk for caching js rewrites. set to null to use memory instead (not recommended for HDD disks)
     diskJsCachePath: path.join(__dirname, './cache-js'),
