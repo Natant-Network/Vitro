@@ -1,0 +1,13 @@
+version: "2"
+services:
+  vitro:
+    restart: unless-stopped
+    image: "ghcr.io/ruby-network/vitro:main"
+    ports:
+    #IMPORTANT: DO NOT CHANGE :8080 ONLY CHANGE YOUR PORT HERE
+      - your port here:8080
+# network config if youi want a network config feel free to use the one below and change the name to your liking. YOU MUST RUN docker network create <your name> BEFORE RUNNING THE CONTAINER
+#networks:
+#  default:
+#    external:
+#      name: default
